@@ -22,6 +22,15 @@
        align-items: center;
        min-height: 92px;
       }
+      .search-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        background-color: #fff;
+        justify-content: center;
+      }
+
     </style>
   </head>
    
@@ -39,12 +48,14 @@
       <label for="search">
         </a><input id="search-bar" type="text" name="search-bar">
       </label>
-      <label for="submit">
-        <input id="search-button" type="submit" value="Google Search" name="search-button">
-      </label>
-      <label for="lucky">
-        <input id="feeling-lucky" type="button" value="I'm Feeling Lucky" name="lucky">
-      </label>
+      <div class="buttons">
+        <label for="submit">
+          <input id="search-button" type="submit" value="Google Search" name="search-button">
+        </label>
+        <label for="lucky">
+          <input id="feeling-lucky" type="button" value="I'm Feeling Lucky" name="lucky">
+        </label>
+      </div>
     </form>
   
     <div class="white-space">
