@@ -23,6 +23,8 @@
     display: flex;
     margin: 5px;
     padding: 5px;
+    align-items: center;
+    justify-content: center;
   }
   #header-gmail {
     margin: 5px;
@@ -33,14 +35,42 @@
     padding: 5px;
   }
   #header-apps {
-    margin: 5px;
-    padding: 5px;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin: 5px 0px 5px 5px;
+    padding: 5px 0px 5px 5px;
+    justify-content: end;
+    align-items: center;
+    opacity: 60%;
+    
   }
+  #apps-background {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    opacity: 0;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+  }
+  #apps-background:hover {
+    opacity: 10%;
+  }
+  #apps-dots {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    z-index: 2;
+    position: absolute;
+  }
+  
   #header-signin {
     margin: 5px;
     padding: 5px;
   }
-  
+
   body {
     display: block;
     height: 100%;
