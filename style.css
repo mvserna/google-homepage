@@ -1,8 +1,46 @@
+  
   header {
     display: flex;
     height: 50px;
     padding: 5px;
+    justify-content: space-between;
+
   }
+  #header-left {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+  }
+  #header-about {
+    margin: 5px;
+    padding: 5px;
+  }
+  #header-store {
+    margin: 5px;
+    padding: 5px;
+  }
+  #header-right {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+  }
+  #header-gmail {
+    margin: 5px;
+    padding: 5px;
+  }
+  #header-images {
+    margin: 5px;
+    padding: 5px;
+  }
+  #header-apps {
+    margin: 5px;
+    padding: 5px;
+  }
+  #header-signin {
+    margin: 5px;
+    padding: 5px;
+  }
+  
   body {
     display: block;
     height: 100%;
