@@ -27,17 +27,19 @@
         flex-direction: column;
         align-items: center;
         width: auto;
+        
         background-color: #fff;
         justify-content: center;
       }
-      #search-bar {
+      #search-field {
         display: flex;
         border-width: 1px;
         border-color: #dfe1e5;
         border-style: solid;
         border-radius: 10px;
         box-shadow: none;
-        height: 44px;
+        height: 35px;
+        width: 584px;
         max-width: 584px;
       }
       .buttons {
@@ -82,7 +84,9 @@
 
     <form class="search-form">
       <label for="search">
-        </a><input id="search-bar" type="text" name="search-bar">
+        <div class="search-bar">
+          <input id="search-field" type="text" name="search-field">
+        </div>        
       </label>
       <div class="buttons">
         <label for="submit">
