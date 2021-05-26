@@ -27,9 +27,15 @@
         flex-direction: column;
         align-items: center;
         width: auto;
-        padding-top: 30px;
+      
         background-color: #fff;
         justify-content: center;
+      }
+      .search-bar {
+        padding-top: 30px;
+        display: flex;
+        align-items: ;
+        width: 584px;
       }
       #search-field {
         display: flex;
@@ -41,6 +47,18 @@
         height: 35px;
         width: 584px;
         max-width: 584px;
+        padding-left: 50px;
+        z-index: 1;
+      }
+      #magnifying-glass {
+        width: 15px;
+        margin-top: ;
+        margin-left: ;
+        padding-top: 12px;
+        padding-left: 15px;
+        position: absolute;
+        z-index: 2;
+        opacity: 25%;        
       }
       .buttons {
         padding-top: 18px;
@@ -79,12 +97,13 @@
     </header>
 
     <div class="google-logo">
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+      <a title="Google" href="https://www.google.com"><img width="256" alt="Google 2015 logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"></a>
     </div>
 
     <form class="search-form">
       <label for="search">
         <div class="search-bar">
+          <a title="Google, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Google_Magnifying_Glass.svg"><img id="magnifying-glass" alt="Google Magnifying Glass" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Google_Magnifying_Glass.svg/512px-Google_Magnifying_Glass.svg.png"></a>
           <input id="search-field" type="text" name="search-field">
         </div>        
       </label>
