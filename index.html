@@ -7,65 +7,66 @@
   </head>
    
   <body>
-    <header>
-      <div id="header-left">
-        <a id="header-about" class="header-link" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-        <a id="header-store" class="header-link" href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+    <div id="container">
+      <header>
+        <div id="header-left">
+          <a id="header-about" class="header-link" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+          <a id="header-store" class="header-link" href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+        </div>
+        <div id="header-right">
+          <a id="header-gmail" class="header-link" href="https://mail.google.com/mail/&ogbl">Gmail</a>
+          <a id="header-images" class="header-link" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+          <a id="header-apps" class="header-link" href="https://www.google.com/intl/en/about/products">
+            <div id="apps-background"></div>
+            <img id="apps-dots" alt="Google apps" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/3x3dot-black.svg/32px-3x3dot-black.svg.png">
+          </a>
+          <a id="header-signin" class="header-link" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">
+            <label for="signin">
+              <input id="signin-button" type="button" value="Sign in"/>
+            </label>
+          </a>
+        </div>
+      </header>
+
+      <div class="google-logo">
+        <a title="Google" href="https://www.google.com"><img width="256" alt="Google 2015 logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"></a>
       </div>
-      <div id="header-right">
-        <a id="header-gmail" class="header-link" href="https://mail.google.com/mail/&ogbl">Gmail</a>
-        <a id="header-images" class="header-link" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
-        <a id="header-apps" class="header-link" href="https://www.google.com/intl/en/about/products">
-          <div id="apps-background"></div>
-          <img id="apps-dots" alt="Google apps" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/3x3dot-black.svg/32px-3x3dot-black.svg.png">
-        </a>
-        <a id="header-signin" class="header-link" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">
-          <label for="signin">
-            <input id="signin-button" type="button" value="Sign in"/>
+
+      <form class="search-form" action="https://www.google.com/search?q=%text">
+        <label for="search">
+          <div class="search-bar">
+            <a title="Google, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Google_Magnifying_Glass.svg"><img id="magnifying-glass" alt="Google Magnifying Glass" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Google_Magnifying_Glass.svg/512px-Google_Magnifying_Glass.svg.png"></a>
+            <input id="search-field" type="text" name="search-field" autofocus>
+          </div>        
+        </label>
+        <div class="buttons">
+          <label for="submit">
+            <input id="search-button" type="submit" value="Google Search" name="search-button">
           </label>
-        </a>
-      </div>
-    </header>
-
-    <div class="google-logo">
-      <a title="Google" href="https://www.google.com"><img width="256" alt="Google 2015 logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"></a>
-    </div>
-
-    <form class="search-form" action="https://www.google.com/search?q=%text">
-      <label for="search">
-        <div class="search-bar">
-          <a title="Google, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Google_Magnifying_Glass.svg"><img id="magnifying-glass" alt="Google Magnifying Glass" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Google_Magnifying_Glass.svg/512px-Google_Magnifying_Glass.svg.png"></a>
-          <input id="search-field" type="text" name="search-field" autofocus>
-        </div>        
-      </label>
-      <div class="buttons">
-        <label for="submit">
-          <input id="search-button" type="submit" value="Google Search" name="search-button">
-        </label>
-        <label for="lucky">
-          <input id="feeling-lucky" type="button" value="I'm Feeling Lucky" name="lucky">
-        </label>
-      </div>
-    </form>
-  
-    <div class="white-space">
-    </div>
+          <label for="lucky">
+            <input id="feeling-lucky" type="button" value="I'm Feeling Lucky" name="lucky">
+          </label>
+        </div>
+      </form>
     
-    <footer>
-      <div id="footer-message">
-        <a class="footer-link" href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="><img id="leaf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC">Carbon neutral since 2007</a>
-      </div>
-      <div id="footer-links-left">
-        <a class="footer-link" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-        <a class="footer-link" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-        <a class="footer-link" href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>        
-      </div>
-      <div id="footer-links-right">
-        <a class="footer-link" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
-        <a class="footer-link" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
-        <a class="footer-link" href="https://www.google.com/preferences?hl=en&fg=1">Settings</a>
-      </div>
-    </footer>
+      <div id="white-space"></div>
+      
+      <footer>
+        <div id="footer-message">
+          <a class="footer-link" href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="><img id="leaf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC">Carbon neutral since 2007</a>
+        </div>
+        <div id="footer-links-left">
+          <a class="footer-link" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+          <a class="footer-link" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+          <a class="footer-link" href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>        
+        </div>
+        <div id="footer-links-right">
+          <a class="footer-link" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+          <a class="footer-link" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+          <a class="footer-link" href="https://www.google.com/preferences?hl=en&fg=1">Settings</a>
+        </div>
+      </footer>
+    </div>
   </body>
 
 
